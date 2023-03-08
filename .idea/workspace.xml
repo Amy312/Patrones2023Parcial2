@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1118ebe5-5204-402d-bca9-1d919eb59c37" name="Changes" comment="Commit 1">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio1/Documento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio1/GDocs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio1/GDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio1/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio1/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio1/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio5/Prendido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio5/Prendido.java" afterDir="false" />
+    <list default="true" id="1118ebe5-5204-402d-bca9-1d919eb59c37" name="Changes" comment="Commit 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Administrativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/ICanal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678315295737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 2">
+      <created>1678317054504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678317054504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit1" />
     <MESSAGE value="Commit prueba" />
     <MESSAGE value="Commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
+    <MESSAGE value="Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
 </project>

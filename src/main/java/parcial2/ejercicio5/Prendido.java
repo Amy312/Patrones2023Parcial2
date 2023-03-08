@@ -17,14 +17,20 @@ public class Prendido implements IStateCelular{
 
         int recursos = 5, i = 0;
         while (celular.getCpu().getConsumo() < 100 && celular.getRam().getConsumo() < 100 && i<nprogramas){
-            celular.getRam().getConsumo();
-            celular.getCpu().getConsumo();
+            celular.getRam().showInfo();
+            celular.getCpu().showInfo();
+
+            System.out.println();
 
             Thread.sleep(1000);
             celular.getCpu().setConsumo(celular.getCpu().getConsumo()+recursos);
             celular.getRam().setConsumo(celular.getRam().getConsumo()+recursos);
-            recursos+=5;
         }
+        if(celular.getCpu().getConsumo()>=100){
+            celular.getCpu().setConsumo(100);
+            celular.getRam().setConsumo(100);
+        }
+
 
         System.out.println("--> Celular prendido <--");
 

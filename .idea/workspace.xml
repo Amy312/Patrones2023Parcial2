@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1118ebe5-5204-402d-bca9-1d919eb59c37" name="Changes" comment="Commit 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Administrativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Docente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/ICanal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Persona.java" afterDir="false" />
+    <list default="true" id="1118ebe5-5204-402d-bca9-1d919eb59c37" name="Changes" comment="Commit 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio3/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio3/ConcreteObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio3/ConcreteObserverB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio3/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio3/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio3/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/Libreria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/OrdCategoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/OrdId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio4/OrdTitulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Administrativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Docente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parcial2/ejercicio2/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +62,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Ambar/Documents/JavaProyects/Patrones2023Parcial2/src/main/java/parcial2/ejercicio3"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ambar\Documents\JavaProyects\Patrones2023Parcial2\src\main\java\parcial2\ejercicio3" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678317054504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 3">
+      <created>1678318283465</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678318283465</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -96,6 +123,7 @@
     <MESSAGE value="Commit prueba" />
     <MESSAGE value="Commit 1" />
     <MESSAGE value="Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
+    <MESSAGE value="Commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3" />
   </component>
 </project>

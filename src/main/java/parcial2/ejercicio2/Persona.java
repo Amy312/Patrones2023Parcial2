@@ -3,6 +3,7 @@ package parcial2.ejercicio2;
 public abstract class Persona {
     protected ICanal canal;
     private String name;
+    String info;
 
     public Persona(ICanal canal) {
         this.canal = canal;

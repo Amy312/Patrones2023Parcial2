@@ -9,6 +9,7 @@ public class Estudiante extends Persona {
     public Estudiante(ICanal canal, String matricula) {
         super(canal);
         this.matricula = matricula;
+        info = "est";
     }
 
     public String getMatricula() {

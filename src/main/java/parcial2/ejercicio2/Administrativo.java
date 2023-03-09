@@ -6,6 +6,7 @@ public class Administrativo extends Persona {
     public Administrativo(ICanal canal, String cargo) {
         super(canal);
         this.cargo = cargo;
+        info = "admi";
     }
 
     @Override

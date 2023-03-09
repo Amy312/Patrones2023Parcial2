@@ -17,18 +17,20 @@ public class Chat implements ICanal{
 
     @Override
     public void send(String message, Persona persona) {
-        if(persona == administrativo){
-            for(String dato: coleChat.keySet()){
-                if(persona!=coleChat.get(dato)){
+
+
+        for(String dato: coleChat.keySet()){
+            if(persona.getName()!=coleChat.get(dato).getName()){
+                if(persona.info == "admi"){
                     coleChat.get(dato).received(message);
-                }
-            }
-        } else if(persona == docente){
-            for(String dato: coleChat.keySet()){
-                if(persona!=coleChat.get(dato)){
-                    if(coleChat.get(dato) == docente || coleChat.get(dato)== estudiante){
+                } else if(persona.info == "doc"){
+                    if(coleChat.get(dato).info == "doc" || coleChat.get(dato).info == "est"){
                         coleChat.get(dato).received(message);
+                    } else if(persona.info =="est" && coleChat.get(dato).info=="est"){
+                        coleChat.get(dato).received(message);
+
                     }
+
                 }
             }
         }

@@ -6,6 +6,7 @@ public class Docente extends Persona{
     public Docente(ICanal canal, String ci) {
         super(canal);
         this.ci = ci;
+        info = "doc";
     }
 
     public String getCi() {
